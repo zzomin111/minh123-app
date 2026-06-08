@@ -1,19 +1,29 @@
-# 🎈 Blank app template
+# 🧠 인수분해 탈출 스트림잇
 
-A simple Streamlit app template for you to modify!
+이 저장소는 중학교 수학 수업에서 인수분해의 도입-전개-정리 단계를 스트림릿으로 구현한 교육 앱입니다.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## 앱 구성
 
-### How to run it on your own machine
+- `1. 도입`: "인간 vs AI 계산 대결"으로 학생들의 호기심을 자극합니다.
+- `2. 전개`: 직접 수를 입력하여 인수분해 구조를 확인하고 탐구형 문제를 해결합니다.
+- `3. 정리`: 실생활 문장제 형성평가 퀴즈를 풀며 학습 내용을 내면화합니다.
 
-1. Install the requirements
+## 실행 방법
 
+1. 요구사항 설치
+
+   ```bash
+   pip install -r requirements.txt
    ```
-   $ pip install -r requirements.txt
+
+2. 앱 실행
+
+   ```bash
+   streamlit run streamlit_app.py
    ```
 
-2. Run the app
+## 주요 기능
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+- 인수분해 공식 자동 계산 및 단계별 풀이 안내
+- 103 × 97 형태의 문제를 인수분해 구조로 시각화
+- 퀴즈 정답 확인 시 풍선 효과 등 재미 요소 제공
